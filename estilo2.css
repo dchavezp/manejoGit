@@ -1,0 +1,52 @@
+/*body{
+  background-color: #FFE4E1;
+}
+*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  te
+
+}
+th{
+  text-align-last: center;
+}
+
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #68001D;
+  color: white;
+}
+
+/*Estilo de la tabla interna emición de documentos ranking*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/*Estilo de imagenes*/
+img {
+  width: 100%;
+  height: auto;
+}
