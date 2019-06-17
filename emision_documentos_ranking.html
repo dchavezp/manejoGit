@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="estilo_busqueda.css">
+  <link rel="stylesheet" href="estilo2.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -20,43 +20,83 @@
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.html">Inicio</a></li>
-      <li><a href="emisionDocumentos.html">Emisión de Documentos</a></li>
+      <li><a href="emision_documentos_ranking.html">Emisión de Documentos</a></li>
       <li><a href="#">Acerca de Nosostros</a></li>
       <li><a href="#">Ayuda</a></li>
     </ul>
-
   </div>
 </nav>
-
 <div class="container">
-  <h3>RESUMEN</h3>
+</style>
+</head>
+<body>
 
-  <h4>Aqui va el resumen</h1>
+<table>
 
-  <h3>OPCIONES</h3>
+  <tr>
+    <th>Resumen</th>
+    <th>Opciones</th>
+  </tr>
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <th>Codigo</th>
+          <th>Nombre</th>
+          <th>Escuela</th>
+          <th>Nota</th>
+        </tr>
+        <tr>
+          <td>20123212</td>
+          <td>Jaking Mendoza Chipana</td>
+          <td>Ing. Ambiental</td>
+          <td>11.54</td>
+        </tr>
+        <tr>
+          <td>20123212</td>
+          <td>Rolando Mendel Zapata</td>
+          <td>Ing. Ambiental</td>
+          <td>14.23</td>
+        </tr>
+        <tr>
+          <td>20123212</td>
+          <td>Helen Vistos Cuadros</td>
+          <td>Ing. Ambiental</td>
+          <td>12.34</td>
+        </tr>
+</table>
 
+    </td>
+    <td>
+      <form action="/action_page.php">
+        CUI:<br>
+        <input type="text" name="lastname" value=" "><input type="submit" value="Buscar">
+      </form>
 
-  <form action="/action_page.php">
-    CUI:<br>
-    <input type="text" name="lastname" value=" "><input type="submit" value="Buscar">
-  </form>
+    <form action="/action_page.php">
+      <select name="cars">
+        <option value="volvo">Primero</option>
+        <option value="saab">Segundo</option>
+        <option value="fiat">Tercero</option>
+        <option value="audi">Cuarto</option>
+        <option value="audi">Quinto</option>
+      </select>
+    </form>
+    <form action="/action_page.php">
+      <input type="checkbox" name="vehicle1" value="Bike">Mostrar grupo<br>
+      <input type="checkbox" name="vehicle2" value="Car">Mostrar Puesta<br>
+    </form>
 
-<form action="/action_page.php">
-  <select name="cars">
-    <option value="volvo">Primero</option>
-    <option value="saab">Segundo</option>
-    <option value="fiat">Tercero</option>
-    <option value="audi">Cuarto</option>
-    <option value="audi">Quinto</option>
-  </select>
-</form>
+    <button type="button" onclick="alert('Hello world!')">Imprimir</button>
+    </td>
+  </tr>
+</table>
 
-  <form action="/action_page.php">
-    <input type="checkbox" name="vehicle1" value="Bike">Mostrar grupo<br>
-    <input type="checkbox" name="vehicle2" value="Car">Mostrar Puesta<br>
-  </form>
+<center>
+<input type="button" value="Atrás" onclick="window.location.href='emision_documentos.html'" />
+<input type="button" value="Inicio" onclick="window.location.href='index.html'" />
+</center>
 
-  <button type="button" onclick="alert('Hello world!')">Imprimir</button>
 
 </div>
 
